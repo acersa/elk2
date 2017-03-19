@@ -4,6 +4,7 @@
 # Recipe:: default
 #
 
+include_recipe 'java'
 include_recipe 'chef-sugar'
 
 # see README.md and test/fixtures/cookbooks for more examples!
