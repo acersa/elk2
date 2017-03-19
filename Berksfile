@@ -2,6 +2,8 @@ source 'https://supermarket.chef.io'
 
 metadata
 
+cookbook 'apt', '~> 6.0.1'
+
 group :integration do
   cookbook 'elasticsearch_test', path: './test/fixtures/cookbooks/elasticsearch_test'
 
